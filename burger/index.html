@@ -1,0 +1,160 @@
+<!--Сообщаем браузеру как стоит обрабатывать ету страницу-->
+<!DOCTYPE html>
+<!--Оболочка документа,указываем язык содержимого-->
+<html lang="en">
+<!--Заголовок страницы,контейнер для других важных даных-->
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Заголовок страницы в браузере-->
+   <title>burger</title>
+   <!--Подключение CSS-->
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<!--Отображаемое тело страницы-->
+
+<body> <!-- родитель -->
+   <div class="wraper">
+      <header class="header">
+         <div class="header__container">
+            <a href="" class="header__logo"></a>
+            <div class="header__menu menu">
+               <div class="menu__burger">
+                  <span></span>
+               </div>
+               <nav class="menu__body">
+                  <ul class="menu__list">
+                     <li>
+                        <a data-goto=".page__section_1" href="#" class="menu__link">Раздел №1</a>
+                     </li>
+                     <li>
+                        <a data-goto=".page__section_2" href="#" class="menu__link">Раздел №2</a>
+                     </li>
+                     <li>
+                        <a data-goto=".page__section_3" href="#" class="menu__link">Раздел №3</a>
+                     </li>
+                     <li>
+                        <a href="" class="menu__link">Страница №1</a>
+                        <span class="menu__arrow"></span>
+                        <ul class="menu__sub-list">
+                           <li>
+                              <a href="" class="menu__sub-link">Раздел Страницы №1</a>
+                           </li>
+                           <li>
+                              <a href="" class="menu__sub-link">Раздел Страницы №2</a>
+                           </li>
+                           <li>
+                              <a href="" class="menu__sub-link">Раздел Страницы №3</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="" class="menu__link">Страница №2</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <main class="page">
+         <section class="page__section page__section_1">
+            <h1 class="page__title">Отличная статья</h1>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Provident earum repellendus, sequi temporibus
+               illum facere? Vel aspernatur non minima fugiat. Voluptatibus eos
+               officiis a delectus natus molestias ipsam adipisci nobis!</p>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Dolor exercitationem, molestiae voluptatibus
+               cum ab cupiditate adipisci delectus omnis amet est necessitatibus
+               dolorem maxime quas perspiciatis quos saepe tempore quasi
+               expedita.</p>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Numquam, quos ea, fugit soluta recusandae quia
+               optio tempore molestiae voluptatum vitae sint laborum nulla!
+               Ullam quibusdam necessitatibus voluptatibus animi libero tenetur.
+            </p>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Doloremque perspiciatis, ut voluptates
+               dignissimos dolorem fugiat est. Cumque ut optio molestiae
+               voluptas alias est aspernatur eligendi minima ullam! Vitae,
+               ratione modi.</p>
+            <p class="page__text">Lorem ipsum dolor sit, amet consectetur
+               adipisicing elit. Consequatur placeat at deserunt doloribus aut
+               officia itaque quis consectetur ea ipsum a nemo animi sequi
+               excepturi, iusto sapiente! Laboriosam, obcaecati natus?</p>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur,
+               adipisicing elit. Enim est, deleniti, harum laboriosam magni
+               nulla rerum nobis recusandae nam vitae labore cum rem ea expedita
+               nihil voluptatibus ratione beatae aspernatur!</p>
+         </section>
+         <section class="page__section page__section_2">
+            <h2 class="page__sub-title">Отличный раздел сайта</h2>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Provident earum repellendus, sequi temporibus
+               illum facere? Vel aspernatur non minima fugiat. Voluptatibus eos
+               officiis a delectus natus molestias ipsam adipisci nobis!</p>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Dolor exercitationem, molestiae voluptatibus
+               cum ab cupiditate adipisci delectus omnis amet est necessitatibus
+               dolorem maxime quas perspiciatis quos saepe tempore quasi
+               expedita.</p>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Numquam, quos ea, fugit soluta recusandae quia
+               optio tempore molestiae voluptatum vitae sint laborum nulla!
+               Ullam quibusdam necessitatibus voluptatibus animi libero tenetur.
+            </p>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Doloremque perspiciatis, ut voluptates
+               dignissimos dolorem fugiat est. Cumque ut optio molestiae
+               voluptas alias est aspernatur eligendi minima ullam! Vitae,
+               ratione modi.</p>
+            <p class="page__text">Lorem ipsum dolor sit, amet consectetur
+               adipisicing elit. Consequatur placeat at deserunt doloribus aut
+               officia itaque quis consectetur ea ipsum a nemo animi sequi
+               excepturi, iusto sapiente! Laboriosam, obcaecati natus?</p>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur,
+               adipisicing elit. Enim est, deleniti, harum laboriosam magni
+               nulla rerum nobis recusandae nam vitae labore cum rem ea expedita
+               nihil voluptatibus ratione beatae aspernatur!</p>
+         </section>
+         <section class="page__section page__section_3">
+            <h2 class="page__sub-title">Отличный раздел сайта</h2>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Provident earum repellendus, sequi temporibus
+               illum facere? Vel aspernatur non minima fugiat. Voluptatibus eos
+               officiis a delectus natus molestias ipsam adipisci nobis!</p>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Dolor exercitationem, molestiae voluptatibus
+               cum ab cupiditate adipisci delectus omnis amet est necessitatibus
+               dolorem maxime quas perspiciatis quos saepe tempore quasi
+               expedita.</p>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Numquam, quos ea, fugit soluta recusandae quia
+               optio tempore molestiae voluptatum vitae sint laborum nulla!
+               Ullam quibusdam necessitatibus voluptatibus animi libero tenetur.
+            </p>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Doloremque perspiciatis, ut voluptates
+               dignissimos dolorem fugiat est. Cumque ut optio molestiae
+               voluptas alias est aspernatur eligendi minima ullam! Vitae,
+               ratione modi.</p>
+            <p class="page__text">Lorem ipsum dolor sit, amet consectetur
+               adipisicing elit. Consequatur placeat at deserunt doloribus aut
+               officia itaque quis consectetur ea ipsum a nemo animi sequi
+               excepturi, iusto sapiente! Laboriosam, obcaecati natus?</p>
+            <p class="page__text">Lorem ipsum dolor sit amet consectetur,
+               adipisicing elit. Enim est, deleniti, harum laboriosam magni
+               nulla rerum nobis recusandae nam vitae labore cum rem ea expedita
+               nihil voluptatibus ratione beatae aspernatur!</p>
+         </section>
+      </main>
+   </div>
+
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
